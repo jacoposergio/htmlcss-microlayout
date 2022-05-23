@@ -114,11 +114,47 @@ section {
     font-size: 1rem;
 }
 
-
-
 /* last info   */
 
 .last-info h4{
     text-align: center;
     font-size: 0.9rem;
+}
+
+
+/* MD  */
+@media screen and (min-width:  768px) {
+
+    body{
+        background-color: PURPLE;
+    }
+
+/* LG */
+
+@media screen and (min-width:  992px) {
+
+    body{
+        background-color: GREEN;
+    }
+
+    
+
+
+
+
+
+
+/* XL */
+@media screen and (min-width: 1200px) {
+
+   body{
+       background-color: yellow;
+   }
+
+    .product-card{
+        display: flex;
+    }
+
+
+
 }
