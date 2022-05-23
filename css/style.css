@@ -1,3 +1,45 @@
 body{
     background-color: red;
 }
+
+section {
+    padding: 40px 0;
+    border: 1px solid red;
+}
+
+
+/* Product card   */
+
+.product-card img {
+    max-width: 100%;
+    display: block;
+}
+
+.product-card a {
+    color: inherit;
+}
+
+/* Product card heading */
+
+
+
+
+/* Product card info */
+.product-card .circles {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.product-card .circles > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+.product-card .circles .circle {
+    width: 1rem;
+    height: 1rem;
+    background-color: salmon;
+    margin-right: 0.4rem;
+}
+
+.product-card .pc-info .circles a{
+    text-decoration-style: dotted;
+}
